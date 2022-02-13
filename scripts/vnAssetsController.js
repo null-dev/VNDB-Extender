@@ -248,7 +248,7 @@ class VnAssetsController {
 						coverID = coverID.substr(1);
 					}
 				}
-				let coverURL = "https://s2.vndb.org/"+folder+"/"+coverID.substr(-2)+"/"+coverID+".jpg";
+				let coverURL = "https://vndb-cdn.nd.ax/vndb-img/"+folder+"/"+coverID.substr(-2)+"/"+coverID+".jpg";
 				data.sender.applyCoverURL(coverURL, data.id);
 
 				data.nsfw = info.c_sexual_avg >= 1;
