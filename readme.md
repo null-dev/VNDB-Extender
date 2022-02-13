@@ -1,5 +1,3 @@
-# Help-me keep actively creating tools!
-
 # VNDB Extender 2020
 A updated version of the VNDB Extender
 
